@@ -1,0 +1,9 @@
+<p>create-snippet works!</p>
+<h1>hi</h1>
+
+
+<div *ngFor="let productItem of companiesList">
+    {{productItem.name}}
+    <div [innerHtml]="productItem.data">
+    </div>
+</div>
